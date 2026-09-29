@@ -20,14 +20,21 @@ OCR 识别由 RapidOCR 的本地 ONNX 模型完成，不调用百度、腾讯等
 
 ## 安装和运行
 
-在项目目录打开 PowerShell：
+从 GitHub 获取源码后，需要在 Windows 上安装 Python。克隆代码本身不会自动配置 Python 环境。打开 PowerShell，执行：
+
+```powershell
+git clone https://github.com/lty-djy/-OCR.git "墨捕 OCR"
+Set-Location -LiteralPath '.\墨捕 OCR'
+```
+
+首次运行时创建项目专用环境并安装依赖：
 
 ```powershell
 Set-ExecutionPolicy -Scope Process Bypass
 .\setup.ps1
 ```
 
-以后双击 `run.bat` 即可启动，也可以运行：
+安装完成后，双击 `run.bat` 启动。详细操作步骤见[使用说明](使用说明.md)。也可以从 PowerShell 启动：
 
 ```powershell
 .\.venv\Scripts\python.exe .\main.py
