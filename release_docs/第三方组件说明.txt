@@ -1,0 +1,10 @@
+墨捕 OCR 使用的主要开源组件：
+- Python 3.12（PSF License）
+- PySide6 / Qt for Python（LGPLv3 / GPL）
+- RapidOCR ONNX Runtime（Apache-2.0）
+- ONNX Runtime（MIT）
+- OpenCV（Apache-2.0）
+- NumPy（BSD-3-Clause）
+
+NVIDIA GPU 版还包含适用 NVIDIA 软件许可的 CUDA 运行组件。
+各组件版权归其各自权利人所有。

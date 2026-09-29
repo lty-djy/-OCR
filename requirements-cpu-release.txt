@@ -1,0 +1,5 @@
+PySide6==6.11.1
+rapidocr-onnxruntime==1.4.4
+onnxruntime==1.28.0
+numpy==2.5.2
+pyinstaller==6.16.0

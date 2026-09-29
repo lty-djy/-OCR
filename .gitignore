@@ -1,0 +1,15 @@
+.venv/
+.build-venv-cpu/
+.build/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.spec
+
+# Local shortcuts and design drafts
+*.lnk
+assets/icon-concepts/
+assets/previous-icons/
+

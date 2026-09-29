@@ -1,0 +1,12 @@
+PySide6==6.11.1
+rapidocr-onnxruntime==1.4.4
+onnxruntime-gpu==1.28.0
+numpy==2.5.2
+nvidia-cublas==13.6.0.2
+nvidia-cuda-nvrtc==13.3.33
+nvidia-cuda-runtime==13.3.29
+nvidia-cudnn-cu13==9.24.0.43
+nvidia-cufft==12.3.0.29
+nvidia-curand==10.4.3.29
+nvidia-nvjitlink==13.3.33
+pyinstaller==6.16.0
